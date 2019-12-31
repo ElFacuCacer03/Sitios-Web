@@ -1,0 +1,23 @@
+// FOOTER
+
+footer {
+    background: #444444;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    .Redes {
+        margin-bottom: 40px;
+        font-size: 18px;
+        img {
+            margin: 0 5px;
+        }
+    }
+    .Creditos {
+        font-size: 14px;
+        margin: 0;
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+}

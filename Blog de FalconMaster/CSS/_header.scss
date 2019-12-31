@@ -1,0 +1,55 @@
+header {
+    .logo {
+        padding-top: 1.25em; // 20px 
+        padding-top: 1.25em; // 20px
+        a {
+            display: inline-block;
+        }
+    }
+    .redes-sociales {
+        text-align: right;
+        line-height: 5em;
+        a {
+            border-radius: 50%;
+            width: 2.5em; // 40px
+            height: 2.5em; // 40px
+            text-align: center;
+            line-height: 2.5em; // 40px
+            display: inline-block;
+            background: #000;
+            color: #fff;
+            margin-left: 1.25em; // 20px
+            &.youtube {
+                background: #c05554;
+            }
+            &.twitter {
+                background: #55acee;
+            }
+            &.facebook {
+                background: #3b5998;
+            }
+        }
+    }
+    .menu {
+        background: $azul_primario;
+        margin-bottom: 1.25em;
+        ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+            li {
+                a {
+                    color: #fff;
+                    display: inline-block;
+                    padding: 1em 1.25em;
+                    font-size: .87em;
+                    &:hover {
+                        text-decoration: none;
+                        background: $azul_secundario;
+                    }
+                }
+            }
+        }
+    }
+}

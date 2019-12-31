@@ -1,0 +1,58 @@
+// SOBRE LA EMPRESA
+
+#Sobre-la-Empresa {
+    padding-top: 94px;
+    margin-top: 66px;
+    h4 {
+        font-size: 24px;
+        color: #fff;
+        margin: auto;
+        margin: 0;
+        text-align: center;
+        font-weight: 400;
+    }
+    p {
+        margin-top: 10px;
+        line-height: 24px;
+        font-size: 18px;
+    }
+    .Tarjetas {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        .Tarjeta {
+            width: 46%;
+            padding: 20px;
+            border-radius: 25px;
+        }
+        .Tarjeta.Mision {
+            background-color: $colorRojo;
+        }
+        .Tarjeta.Vision {
+            background-color: $colorFrutilla;
+        }
+    }
+    .Objetivos, .Fundamentacion {
+        width: 100%;
+        padding: 20px;
+        border-radius: 25px;
+        background-color: $colorPiel;
+        margin: 40px 0;
+        box-sizing: border-box;
+        ul {
+            li {
+                list-style-image: url(Imagenes/Objetivo.png);
+                margin-left: 25px;
+                margin: 0 0 5px;
+            }
+        }
+    }
+    .Objetivos {
+        p {
+            font-weight: bold;
+        }
+    }
+    .Fundamentacion {
+        background-color: $colorRojo;
+    }
+}

@@ -1,0 +1,1005 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+.Contenedor {
+  width: 90%;
+  max-width: 1280;
+  margin: auto;
+}
+
+header {
+  background-image: url(IMG/ondas.png), linear-gradient(237deg, #46b3ff 0%, #0752fe 100%);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  height: 750px;
+  background-size: contain;
+}
+
+.Menu {
+  background: #fff;
+  padding: 9px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  box-shadow: 1px 1px 9px #ccc;
+  z-index: 100;
+}
+
+.Menu .Contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .Logo {
+  font-size: 23px;
+  font-weight: bold;
+  color: #000;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+header .Contenedor-Inicio {
+  display: flex;
+  justify-content: center;
+  margin: 9vh 0;
+}
+
+header .Titular, header .Imagen {
+  width: 40%;
+  margin-top: 70px;
+}
+
+header h1 {
+  font-size: 52px;
+  color: #fff;
+}
+
+header p {
+  color: #fff;
+  line-height: 30px;
+}
+
+header .Imagen img {
+  width: 100%;
+}
+
+.Boton {
+  background: #253547;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 14px;
+  box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.Dominios {
+  display: flex;
+}
+
+.Dominios li {
+  list-style: none;
+  margin: 0 20px;
+}
+
+span.Punto {
+  color: #1776FF;
+  font-size: 24px;
+}
+
+span.Dominio {
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+span.Año {
+  color: #999;
+  font-size: 14px;
+}
+
+/* SERVICES */
+
+#Services {
+  padding-top: 196px;
+}
+
+#Services .Contenedor {
+  display: flex;
+  justify-content: space-around;
+}
+
+#Services .Titular {
+  width: 49%;
+}
+
+#Services .Service {
+  width: 25%;
+  background-color: #ffffff;
+  border-radius: 24px 24px 24px 24px;
+  box-shadow: 0px 90px 160px 0px rgba(0,0,0,0.06);
+  padding: 20px 30px;
+}
+
+#Services h2, #Pricing h2, #File h2, #Easy h2, #Testimonials h2 {
+  font-family: 'Rubik';
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #ff8f00!important;
+  letter-spacing: 1px;
+}
+
+#Services h3, #Pricing h3, #Pricing h3, #Easy h3, #Testimonials h3 {
+  font-weight: 500;
+font-size: 38px;
+}
+
+#Services .Boton {
+  background: #2970fa;
+  padding: 15px 38px;
+letter-spacing: 1px;
+}
+
+.Service h4 {
+  font-size: 23px;
+  font-weight: normal;
+  font-family: 'Rubik';
+}
+
+.Service p {
+  color: #787878;
+  line-height: 32px;
+    font-size: 15px;
+}
+
+.Service a {
+  color: #2970fa;
+  text-decoration: none;
+  font-family: 'Rubik';
+  letter-spacing: 1px;
+  font-size: 13px;
+}
+
+.Contenedor-Services-2 {
+  margin-top: 60px;
+}
+
+.Contenedor-Services-2 #Dos {
+  position: relative;
+  top: -250px;
+}
+
+#Services .Contenedor .Service hr {
+  border: 1px solid #ff8f00;
+  margin: 12px 0px;
+  width: 60px;
+}
+
+/* OUR FEATURES */
+
+#Features {
+  padding-top: 96px;
+}
+
+#Features h2 {
+  font-family: "Rubik";
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #ff8f00;
+  letter-spacing: 1px;
+}
+
+#Features h3 {
+  font-weight: bold;
+  font-size: 38px;
+  margin: 0;
+}
+
+#Features p {
+  color: #666;
+  line-height: 30px;
+}
+
+#Features .Contenedor {
+  display: flex;
+  justify-content: center;
+  max-width: 1100px;
+  padding-bottom: 40px;
+}
+
+#Features .Titular {
+  width: 40%;
+  margin-right: 77px;
+}
+
+#Features .Imagen {
+  width: 49%;
+}
+
+#Feactures .Imagen img {
+  width: 100%;
+}
+
+.Contenedor-Features-2 {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #cccccc6b;
+  padding-top: 40px;
+}
+
+.Features-1, .Features-2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Feature {
+  width: 30%;
+  margin: auto;
+}
+
+.Feature ul {
+  display: flex;
+  padding: 0;
+}
+
+.Feature li {
+  list-style: none;
+}
+
+.Feature li:nth-child(2) {
+  margin-left: 20px;
+  color: #666;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+/* PRICING */
+
+#Pricing {
+  padding-top: 96px;
+}
+
+#Pricing h2, #Pricing h3 {
+  text-align: center;
+  margin: 0;
+}
+
+#Pricing h3 {
+  font-weight: bold;
+}
+
+.Contenedor-Precios {
+  display: flex;
+  justify-content: space-around;
+}
+
+#Pricing .Tabla {
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0px 90px 160px 0px rgba(0, 0, 0, 0.1);
+  padding: 20px 59px;
+}
+
+#Pricing ul {
+  padding: 0;
+}
+
+#Pricing .Tabla li:nth-child(1) {
+  font-family: 'Rubik';
+  color: #ff8f00;
+  list-style: none;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: -21px;
+}
+
+#Pricing .Tabla .Dolar {
+  position: absolute;
+  color: #999;
+  font-size: 18px;
+}
+
+#Pricing .Tabla .Numero {
+  font-family: 'Rubik';
+  font-weight: bold;
+  font-size: 50px;
+  margin-left: 14px;
+}
+
+#Pricing .Mes {
+  color: #999;
+}
+
+#Pricing .Tabla li:nth-child(2) {
+  list-style: none;
+  margin-bottom: 48px;
+  margin-left: -21px;
+}
+
+#Pricing .Item {
+  color: #ff8f00;
+  margin-bottom: 27px;
+}
+
+#Pricing #Two .Item {
+  color: #296FFA;
+}
+
+#Pricing .Item span {
+  color: #666;
+}
+
+#Pricing #Three .Item {
+  color: #2ACF8D;
+}
+
+#Pricing #One a {
+  color: #ff8f00;
+  background: rgba(255, 143, 0, 0.1);
+}
+
+#Pricing #Two li:nth-child(1) {
+  color: #296FFA;
+}
+
+#Pricing #Three li:nth-child(1) {
+  color: #2ACF8D;
+}
+
+#Pricing #Three a {
+  color: #29cf8d;
+  background: rgba(41, 207, 141, 0.1);
+}
+
+#Pricing #Two a {
+  color: #fff;
+  background: #226FFA;
+}
+
+#Pricing .Hidden {
+  color: #ccc;
+}
+
+#Pricing .Tabla {
+  position: relative;
+}
+
+#Pricing hr {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  width: 100%;
+  border-color: #2423230d
+}
+
+/* FILE */
+
+#File {
+  padding-top: 96px;
+}
+
+#File .Contenedor {
+  display: flex;
+  justify-content: center;
+}
+
+#Files .Iconos .Icono {
+  margin-right: 15px;
+}
+
+#File .Iconos h4, #File .Iconos p {
+  margin: 0;
+}
+
+#File .Iconos h4 {
+  font-weight: bold;
+}
+
+#File .Iconos p {
+  margin-top: 10px;
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+
+#File .Item {
+  display: flex;
+}
+
+#File .Titular {
+  width: 42%;
+  margin-right: 46px;
+}
+
+#File .Imagen {
+  width: 40%;
+}
+
+#File .Imagen img {
+  width: 100%;
+}
+
+#File .Imagen .Boton {
+  background: #296FFA;
+  padding: 15px 40px;
+  letter-spacing: 1px;
+  font-family: 'Rubik';
+}
+
+#File h3 {
+  font-size: 34px;
+  width: 78%;
+  margin: 0;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+#File h2 {
+  margin: 0;
+}
+
+#File .Iconos {
+  margin-top: 30px;
+}
+
+#File .Icono {
+  margin-right: 15px;
+}
+
+/* EXPERT */
+
+#Expert {
+  padding: 96px;
+  background-image: url(IMG/expert4.png),linear-gradient(150deg,#ffba61 0%,#ffe970 100%);
+  background-size: 1521px 975px;
+  background-position: 50% 50%;
+  text-align: center;
+}
+
+#Expert h2 {
+  font-family: 'Rubik';
+  font-size: 52px;
+  color: #fff;
+  text-shadow: 1px 2px 13px #61605d;
+  width: 50%;
+  margin: auto;
+}
+
+#Expert p {
+  width: 50%;
+  margin: auto;
+  color: #fff;
+  margin-top: 30px;
+}
+
+#Expert .Boton {
+  padding: 15px 50px;
+  letter-spacing: 1px;
+}
+
+/* EASY */
+
+#Easy {
+  padding-top: 96px;
+}
+
+#Easy .Contenedor {
+  display: flex;
+  justify-content: center;
+}
+
+#Easy .Imagen, #Easy .Titular {
+  width: 40%;
+}
+
+#Easy .Imagen {
+  margin-right: 72px;
+}
+
+#Easy img {
+  width: 100%;
+}
+
+#Easy h2 {
+  font-family: "Rubik";
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #ff8f00!important;
+  letter-spacing: 1px;
+}
+
+#Easy h3 {
+  font-weight: bold;
+  font-size: 38px;
+  margin: 0;
+}
+
+#Easy p {
+  color: #666;
+  line-height: 30px;
+}
+
+#Easy ul {
+  display: flex;
+  padding: 0;
+  margin-bottom: 37px;
+}
+
+#Easy ul li {
+  list-style: none;
+}
+
+#Easy i {
+  background: #FF8F00;
+  color: #fff;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+}
+
+#Easy ul li:nth-child(1) {
+  margin-right: 20px;
+}
+
+#Easy .Boton {
+  background: #2870FA;
+  padding: 15px 40px;
+  letter-spacing: 1px;
+  margin-top: 0px;
+}
+
+#Easy ul {
+  margin-top: 0px;
+}
+
+/* TESTIMONIALS */
+
+#Testimonials h2, #Testimonials h3 {
+  margin: 0;
+  text-align:center;
+}
+
+#Testimonials {
+  padding-top: 96px;
+}
+
+.Contenedor-Testimonials {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 90px;
+}
+
+.Testimonials {
+  width: 24%;
+  text-align: center;
+  background-image: url(IMG/testimonial-back.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-color: #fff;
+  box-shadow: 0px 90px 160px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 34px;
+  padding: 0 32px;
+  font-family: 'Open Sans';
+}
+
+.Testimonials p {
+  font-size: 14px;
+  color: #666;
+  line-height: 28px;
+  font-weight: 100;
+}
+
+.Testimonials .Nombre {
+  font-weight: bold;
+}
+
+.Testimonials img {
+  width: 25%;
+  border-radius: 100%;
+}
+
+/* SATISFACTION GUARANTEED */
+
+#Satisfaction {
+  padding-top: 96px;
+  padding-bottom: 156px;
+}
+
+#Satisfaction h3 {
+  font-weight: bold;
+  font-size: 38px;
+  text-align: center;
+}
+
+#Satisfaction .Contenedor-Tarjetas {
+  display: flex;
+  justify-content: center;
+}
+
+#Satisfaction .Tarjeta {
+  background-image: url(IMG/tarjeta1.png), linear-gradient(237deg, #46b3ff 0%, #0752fe 100%);
+  background-position: bottom left;
+  background-size: cover;
+  border-radius: 24px;
+  width: 40%;
+  margin: 0 35px;
+  padding: 27px 40px 26px 33px;
+}
+
+#Satisfaction .Tarjeta-Dos {
+  background-image: url(IMG/tarjeta2.png), linear-gradient(150deg, #ffba61 0%, #ffdc71 100%);
+}
+
+#Satisfaction h4 {
+  font-family: 'Rubik';
+  font-size: 26px;
+  color: #fff;
+  margin: 0;
+  margin-bottom: 14px;
+}
+
+#Satisfaction p {
+  color: #fff;
+  line-height: 34px;
+  margin: 0;
+}
+
+/* 30 DAYS FREE HOSTING */
+
+#Treinta {
+  background-image: url(IMG/30.png), linear-gradient(237deg, #46b3ff 0%, #0752fe 100%);
+  background-size: contain;
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding: 310px 0 155px 0;
+  text-align: center;
+}
+
+#Treinta h2 {
+  font-size: 52px;
+  font-family: 'Rubik';
+  color: #fff;
+  text-shadow: 1px 2px 13px #61605b;
+  width: 50%;
+  margin: auto;
+}
+
+#Treinta p {
+  color: #fff;
+  width: 58%;
+  margin: auto;
+  margin-top: 90px;
+  line-height: 30px;
+}
+
+#Treinta .Boton {
+  padding: 15px 50px;
+  letter-spacing: 1px;
+}
+
+/* FOOTER */
+
+Footer {
+background: #161616;
+color: #666;
+}
+
+Footer .Contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1050px;
+}
+
+Footer .Copy {
+  font-size: 14px;
+  font-family: 'Open Sans';
+}
+
+Footer .Redes li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+Footer .Redes i {
+  font-size: 27px;
+}
+
+/* POPUP */
+
+.Popup {
+  display: none;
+  position: fixed;
+  top: 35%;
+  left: 35%;
+  width: 500px;
+  height: 300px;
+  background: #fff;
+  box-shadow: 1px 1px 7px #000;
+  text-align: center;
+}
+
+.Popup p {
+  color: #000;
+  font-weight: bold;
+}
+
+.Popup input[type="submit"] {
+  display: block;
+  width: 166px;
+  margin: auto;
+  margin-top: 30px;
+  background: #296ffa;
+  padding: 15px;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.Popup .Cerrar {
+  position: absolute;
+  top: -16px;
+  right: 0;
+  color: #fff;
+  background: #296efa;
+  width: 30px;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  padding: 15px;
+  font-size: 15px;
+  width: 55%;
+}
+
+.Menu-Icon {
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 480px) {
+  nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #232220;
+    width: 100%;
+    display: none;
+    text-align: center;
+  }
+
+  nav ul {
+    padding: 0;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 23px 20px;
+  }
+
+  nav ul li a {
+    color: #fff;
+  }
+
+  .Menu-Icon {
+    display: flex;
+    position: absolute;
+    right: 65px;
+  }
+
+  header .Contenedor-Inicio {
+    flex-direction: column;
+  }
+
+  header .Titular, header .Imagen {
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  header .Logo {
+    margin-left: -15px;
+  }
+
+  header h1 {
+    font-size: 38px;
+    }
+
+    .Dominios {
+      flex-direction: column;
+      text-align: center;
+      margin-top: 36px;
+    }
+
+    .Dominios li {
+      margin: 8px 20px;
+    }
+
+    #Services {
+      margin-top: 50px;
+      padding-top: 0px;
+    }
+
+    #Services .Contenedor {
+      flex-direction: column;
+    }
+
+    #Services .Titular {
+      width: 100%;
+    }
+
+    #Services h3, #Pricing h3, #Pricing h3, #Easy h3, #Testimonials h3 {
+      font-size: 24px;
+    }
+
+    #Service-Uno {
+      margin-left: 0 !important;
+      margin-top: 40px;
+    }
+
+    #Services .Service {
+      width: 80%;
+    }
+
+    .Contenedor-Services-2 #Dos {
+      top: 55px;
+    }
+
+    .Contenedor-Services-2 #Service-Cuatro {
+      margin-top: 100px;
+    }
+
+    #Features .Contenedor {
+      flex-direction: column;
+    }
+
+    #Features .Titular {
+      width: 100%;
+      margin-right: 0;
+    }
+
+    #Features .Imagen, #Features .Imagen img {
+      width: 100%;
+    }
+
+    .Features-1, .Features-2 {
+      flex-direction: column;
+    }
+
+    .Feature {
+      width: 100%;
+    }
+
+    #Pricing {
+      padding-top: 40px;
+    }
+
+    .Contenedor-Precios {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    #Pricing .Tabla {
+      margin-bottom: 50px;
+    }
+
+    #File .Contenedor {
+      flex-direction: column;
+    }
+
+    #File .Titular {
+      width: 100%;
+      margin-right: 0;
+    }
+
+    #File h3 {
+      width: 100%;
+    }
+
+    #File .Imagen {
+      width: 100%;
+    }
+
+    #Expert {
+      padding: 155px 0;
+      background-size: 600px 890px;
+    }
+
+    #Expert h2 {
+      font-size: 30px;
+      width: 100%;
+    }
+
+    #Expert p {
+      width: 100%;
+    }
+
+    #Easy .Contenedor {
+      flex-direction: column;
+    }
+
+    #Easy .Imagen, #Easy .Titular {
+      margin-right: 0;
+      width: 100%;
+    }
+
+    .Contenedor-Testimonials {
+      flex-direction: column;
+    }
+
+    .Testimonials {
+      width: 100%;
+      margin-bottom: 40px;
+      padding: 0px 0;
+    }
+
+    #Satisfaction {
+      padding-top: 40px;
+    }
+
+    #Satisfaction .Contenedor-Tarjetas {
+      flex-direction: column;
+    }
+
+    #Satisfaction .Tarjeta {
+      width: 85%;
+      margin-bottom: 40px;
+      margin: 15px 0;
+      padding: 13px 23px 14px 23px;
+    }
+
+    #Satisfaction h4 {
+      font-size: 19px;
+    }
+
+    #Satisfaction p {
+      font-size: 14px;
+      line-height: 16px;
+    }
+
+    #Treinta h2 {
+      width: 100%;
+      font-size: 28px;
+    }
+
+    #Treinta p {
+      width: 100%;
+    }
+
+    #Treinta {
+      padding: 110px 0 55px 0;
+    }
+
+    Footer .Contenedor {
+      flex-direction: column;
+    }
+
+    .Popup {
+      width: 90%;
+      left: 4%;
+    }
+
+  }

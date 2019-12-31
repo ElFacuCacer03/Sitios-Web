@@ -1,0 +1,51 @@
+// CONTACTO
+
+#Contacto {
+    padding-top: 94px;
+    margin-top: 129px;
+    .Formulario {
+        margin-top: 40px;
+        width: 100%;
+        background-color: $colorFrutilla;
+        padding: 25px;
+        border-radius: 20px;
+    input[type="text"], input[type="email"], textarea {
+        width: 49%;
+        background: #fff;
+        padding: 15px;
+        border-radius: 25px;
+        box-sizing: border-box;
+        border: none;
+    }
+    input[type="text"]:nth-child(1) {
+        margin-right: 10px;
+    }
+    input[type="email"], textarea {
+        width: 99% !important;
+        margin-top: 25px;
+    }
+    textarea {
+        min-width: 99%;
+        max-width: 99%;
+        min-height: 200px;
+        max-height: 300px;
+    }
+    input[type="submit"] {
+        display: block;
+        background-color: #fff;
+        padding: 15px;
+        font-size: 18px;
+        border-radius: 35px;
+        border: none;
+        cursor: pointer;
+        margin: auto;
+        margin-top: 30px;
+    }
+    }
+    .Mapa {
+        margin-top: 40px;
+        iframe {
+            width: 100%;
+        }
+    }
+}

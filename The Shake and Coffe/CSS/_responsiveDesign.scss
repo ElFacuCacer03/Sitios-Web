@@ -1,0 +1,133 @@
+@media(max-width: 800px) {
+//MENU
+.Menu {
+    .Contenedor {
+    .fas.fa-bars {
+        display: block !important;
+        font-size: 28px;
+    }
+
+    p.Logo {
+        font-size: 24px !important;
+    }
+    nav {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: #232220;
+        width: 100%;
+        display: none;
+        ul {
+            flex-direction: column;
+            align-items: center;
+            li {
+                display: block;
+                margin: 20px;
+                a {
+                    color: #fff !important;
+                }
+            }
+        }
+    }
+    }
+}
+
+//INICIO
+#Inicio {
+    .Inicio {
+        margin-top: 35vh !important;
+        h1 {
+            font-size: 60px;
+            animation-name: bounceInDown !important;
+        }
+        h2 {
+            font-size: 24px;
+            animation-name: bounceIn !important;
+        }
+    }
+}
+
+//SOBRE LA EMPRESA
+#Sobre-la-Empresa {
+    .Tarjetas {
+        flex-direction: column;
+        .Tarjeta {
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .Tarjeta:nth-child(2) {
+            margin-top: 40px;
+        }
+    }
+    .Fundamentacion, .Objetivos {
+        box-sizing: border-box;
+    }
+}
+
+//NUESTRO EQUIPO
+#Nuestro-Equipo {
+    .Trabajadores {
+        display: flex;
+        flex-direction: column;
+        .Trabajador {
+            display: block;
+            box-sizing: border-box;
+            width: 100% !important;
+            border-radius: 10% !important;
+            margin-bottom: 40px;
+            padding: 20px 0;
+            animation-name: fadeInDown !important;
+            img {
+                display: block;
+                margin: auto;
+            }
+            .Info {
+                text-align: center;
+                margin: 0;
+                margin-top: 15px;
+                p {
+                    margin: 0;
+                }
+            }
+        }
+        .Trabajador:nth-child(2), .Trabajador:nth-child(4) {
+            padding-right: 0;
+        }
+        .Trabajador:nth-child(3) {
+            margin-top: 0;
+        }
+        .Trabajador:nth-child(4) {
+            margin-bottom: 0;
+        }
+    }
+}
+
+//GALERÍA
+#Galeria {
+    padding-top: 94px;
+    margin-top: 129px;
+    .owl-theme {
+    .owl-nav {
+        margin-top: 0;
+    }
+    }
+}
+
+//CONTACTO
+#Contacto {
+    .Formulario {
+        box-sizing: border-box;
+        input[type="text"] {
+            width: 100%;
+        }
+        input[type="text"]:nth-child(1) {
+            margin-bottom: 25px;
+        }
+    }
+}
+
+//WHATSAPP
+#Whatsapp {
+    top: 85% !important;
+}
+}

@@ -1,0 +1,87 @@
+@media screen and (max-width: 800px) {
+    header {
+        .Contenedor {
+            position: static;
+            height: auto;
+            .Textos {
+                position: static;
+                margin: 100px 0;
+                .Nombre {
+                    font-size: 30px;
+                }
+                h3 {
+                    font-size: 18px;
+                }
+            }
+            .Menu {
+                text-align: center;
+                a {
+                    margin: 10px 20px;
+                }
+            }
+        }
+    }
+    .Main {
+        .Acerca-De {
+            .Foto {
+                width: 100% !important;
+                position: relative !important;
+                margin-top: 50px;
+            }
+            article {
+                position: absolute !important;
+                width: 100% !important;
+                top: 162px !important;
+                transform: translate(0px, 0);
+            }
+        }
+        .Menu {
+            padding-top: 300px;
+            article {
+                width: 100%;
+            }
+        }
+        .Galeria {
+            .Foto {
+                width: 50%;
+            }
+        }
+        .Mapa {
+            width: 80%;
+            margin: auto;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .Main {
+        .Acerca-De {
+            article {
+                top: 140px !important;
+                h3 {
+                    font-size: 34px !important;
+                    margin-bottom: 10px !important;
+                }
+            }
+        }
+        .Menu {
+            .Contenedor {
+                article {
+                    .Nombre, .Precio {
+                        font-size: 16px;
+                        line-height: 16px;
+                    }
+                }
+            }
+        }
+        .Ubicacion {
+            .Direccion {
+                margin-bottom: 15px;
+            }
+            .Direccion, .Horarios {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    }
+}

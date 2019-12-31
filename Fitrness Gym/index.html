@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fitrness Gym</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700|Poppins:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <header>
+      <div class="Menu">
+        <div class="Contenedor">
+          <p class="Logo">Fitrness Gym</p>
+          <img src="imagenes/menu.png" class="Menu-Icon" alt="">
+          <nav>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section id="Intro">
+      <div class="Izquierda">
+        <p>BIGGER.FASTER.STRONGER</p>
+        <h1>DIVI FITNESS GYM</h1>
+        <a href="">GET STARTED TODAY</a>
+      </div>
+      <div class="Derecha">
+        <div class="Contenido">
+          <p>TRY A FREE 3 DAY GYM PASS</p>
+          <a href="">GET YOUR PASS</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="Programs">
+      <div class="Conetenedor">
+        <div class="Rojo Cero">0.00</div>
+        <div class="Rojo Ini">INITIATION FEE</div>
+        <h2>FEATURED PROGRAMS</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
+        <a href="">ALL PROGRAMS</a>
+        <div class="Contenedor-Programs">
+          <div class="Programs" id="Uno">
+            <h3>PERSONAL TRAINING</h3>
+            <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Pellentesque in ipsum id</p>
+          </div>
+          <div class="Programs" id="Dos">
+            <h3>PERSONAL TRAINING</h3>
+            <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Pellentesque in ipsum id</p>
+          </div>
+          <div class="Programs" id="Tres">
+            <h3>PERSONAL TRAINING</h3>
+            <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Pellentesque in ipsum id</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Video-Section">
+      <div class="Contenedor">
+        <video id="Video" width="900px" height="600px" src="Imagenes/video.mp4"></video>
+        <div class="Botones">
+          <button id="Boton" onclick="playVideo()"><i class="far fa-play-circle"></i></button>
+        </div>
+      </div>
+    </section>
+
+  <script>
+
+var Video = document.getElementById('Video');
+var Boton = document.getElementById('Boton');
+
+function playVideo() {
+  Video.play();
+  Boton.style.display = 'none';
+}
+
+Video.addEventListener('ended', function() {
+  Boton.style.display = 'block';
+})
+
+  </script>
+
+  <section id="Join">
+    <div class="Izquierda">
+      <a href="">JOIN NOW</a>
+      <img id="Uno" src="Imagenes/izq.jpg" alt="">
+    </div>
+    <div class="Derecha">
+      <img id="Dos" src="Imagenes/der1.jpg" alt="">
+      <img id="Tres" src="Imagenes/der2.jpg" alt="">
+    </div>
+  </section>
+
+  <section id="Testimonials">
+    <div class="Conetenedor">
+      <span class="Comillas">"</span>
+      <h2>TESTIMONIALS</h2>
+      <a href="">JOIN THE MOVEMENT</a>
+
+      <div class="Contenedor-Testimonials">
+        <div class="Testimonial">
+          <div class="Contenido">
+          <div class="Foto"></div>
+          <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in”</p>
+          </div>
+          <p class="Nombre">Marissa James</p>
+        </div>
+
+        <div class="Testimonial">
+          <div class="Contenido">
+          <div class="Foto"></div>
+          <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in”</p>
+          </div>
+          <p class="Nombre">Marissa James</p>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section id="Contacto">
+    <div class="Izquierda">
+      <p>BIGGER.FASTER.STRONGER</p>
+      <h2>DIVINATION</h2>
+      <form action="">
+        <input type="text" placeholder="Nombre" name="Nombre">
+        <input type="email" placeholder="Email Address" name="Email">
+        <textarea placeholder="menssage" name="Menssage"></textarea>
+        <input type="submit" value="SUBMIT">
+      </form>
+    </div>
+    <div class="Derecha">
+      <div class="Gym-Hours">
+        <h3>GYM HOURS</h3>
+        <ul>
+          <li>Monday-Friday: 5am – 11pm</li>
+          <li>Monday-Friday: 5am – 11pm</li>
+          <li>Monday-Friday: 5am – 11pm</li>
+        </ul>
+      </div>
+      <div class="Pass">
+        <h3>FREE 3 DAY GYM PASS</h3>
+        <a href="">GET STARTED</a>
+      </div>
+    </div>
+  </section>
+
+  <script
+    src="https://code.jquery.com/jquery-3.4.0.min.js"
+    integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+    crossorigin="anonymous"></script>
+
+  <script src="script.js"></script>
+
+  </body>
+</html>

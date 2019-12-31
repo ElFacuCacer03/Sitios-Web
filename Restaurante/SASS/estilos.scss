@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: "Open Sans", "Arial";
+    font-size: 16px;
+}
+
+.Contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+@import "header";
+
+@import "acercaDe";
+
+@import "menu";
+
+@import "galeria";
+
+@import "ubicacion";
+
+@import "footer";
+
+@import "mediaqueries";

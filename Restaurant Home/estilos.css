@@ -1,0 +1,489 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+a {
+  text-decoration: none;
+}
+
+.Contenedor {
+  width: 90%;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.Menu {
+  background: #fff;
+  padding: 9px 20px;
+}
+
+.Menu .Contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .Logo {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #000;
+}
+
+/*INTRO*/
+
+#Intro {
+  background: url(Imagenes/back.jpg);
+  text-align: center;
+  height: 60Vh;
+  margin-top: -60px;
+  background-size: cover;
+  background-position: 57% 47%;
+}
+
+#Intro h1 {
+  font-family: "Playfair Display";
+  font-size: 72px;
+  color: #fff;
+  font-weight: normal;
+  padding-top: 60px;
+}
+
+#Intro p {
+  color: #bfbfbfbf;
+  font-size: 18px;
+  line-height: 36px;
+  width: 60%;
+  margin: auto;
+}
+
+#Intro .Menu {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 9px;
+  background: transparent;
+}
+
+#Intro .Resrvation {
+  color: #fff;
+  padding: 9px;
+  background: #c39d63;
+}
+
+#Intro .Botones {
+  margin-top: 50px;
+}
+
+#Intro .Botones a {
+  margin-right: 20px;
+  padding: 9px 23px;
+}
+
+/* OUR STORY */
+
+#Our-Story {
+  padding: 90px 0;
+}
+
+#Our-Story .Contenedor {
+  display: flex;
+  justify-content: center;
+}
+
+.Our-Story {
+  color: #bfbfbfbf;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+hr {
+  width: 40px;
+  float: left;
+  border-color: #C29D63;
+}
+
+#Our-Story h2, #Testimonials h2 {
+  margin-top: 50px;
+  font-size: 48px;
+  font-family: "Playfair Display";
+  font-weight: 300;
+}
+
+#Our-Story .Texto, #Testimonials .Texto {
+  font-size: 17px;
+  color: #939393;
+  line-height: 30px;
+  width: 88%;
+}
+
+#Our-Story .Izquierda {
+  width: 45%;
+}
+
+/* MENU */
+
+#Menu {
+  background: #1f1f1f;
+}
+
+#Menu .Foto {
+  background: url(Imagenes/cangrejo.png);
+  width: 300px;
+  height: 285px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#Menu .Linea1 div, #Menu .Linea2 div {
+  display: inline-block;
+  width: 33.1%;
+}
+
+#Menu .Linea1, #Menu .Linea2 {
+  background: #fff;
+  text-align: center;
+}
+
+#Menu li {
+  list-style: none;
+}
+
+#Menu .Pricing {
+  color: #C29D62;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+#Menu .Titulo {
+  font-family: "Playfair Display";
+  font-size: 24px;
+  font-weight: 100;
+}
+
+#Menu .Parafo {
+  color: #939393;
+  line-height: 30px;
+  margin-top: 20px;
+}
+
+#Menu .Hongos {
+  background: url(Imagenes/hongos.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: -11px;
+  left: -14px;
+  width: 33.5% !important;
+}
+
+#Menu .Pez {
+  background: url(Imagenes/pez.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: -11px;
+  right: -14px;
+  width: 33.5% !important;
+}
+
+#Menu .Contenedor {
+  max-width: 1130px;
+}
+
+#Menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+#Menu .Texto {
+  position: relative;
+  top: -30px;
+  width: 30% !important;
+}
+#Menu .Linea2 {
+  height: 275px;
+}
+
+/* TESTIMONIALS */
+
+#Testimonials {
+  text-align: center;
+  background: #f7f7f7;
+  padding: 90px 0;
+}
+
+#Testimonials .Titulo {
+  color: #bfbfbfbf;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+#Testimonials hr {
+  width: 40px;
+  float: none;
+  font-weight: 700;
+}
+
+.Contenedor-Testimonials {
+  display: flex;
+  flex-wrap: wrap;justify-content: space-between;
+}
+
+.Testimonial {
+  width: 25%;
+  text-align: left;
+}
+
+.Testimonial img {
+  width: 55%;
+}
+
+/* CONTACTO */
+
+#Contacto {
+  background: url(Imagenes/restaurant.jpg);
+  color: #fff;
+  text-align: center;
+  padding: 90px 0;
+}
+
+#Contacto .Contenedor {
+  display: flex;
+  justify-content: center;
+}
+
+#Contacto .izquierda , #Contacto .Derecha {
+  background: #1f1f1f;
+  padding: 77px 29px;
+}
+
+#Contacto .izquierda {
+  margin-right: 40px;
+}
+
+#Contacto .izquierda ul {
+  border-bottom: 2px solid #C29D62;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+#Contacto .izquierda ul#Tercero {
+  border-bottom: 0px;
+}
+#Contacto ul li {
+  list-style: none;
+  font-size: 15px;
+}
+
+#Contacto h2 {
+  font-family:"Playfair Display";
+  font-size: 32px;
+  font-weight: 100;
+}
+
+#Contacto ul li:nth-child(1) {
+  font-weight: bold;
+}
+
+#Contacto a {
+  color: #fff;
+  padding: 9px;
+  background: #c39d63;
+  letter-spacing: 2px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+#Contacto  h3 {
+  font-size: 23px;
+  font-weight: 100;
+  margin:0;
+}
+
+#Contacto .Derecha p {
+  opacity: 0.8;
+  width: 70%;
+  margin: auto;
+}
+
+#Contacto .Derecha a {
+  padding: 9px 12px;
+}
+
+#Contacto h3.News {
+  margin-top: 67px;
+}
+
+#Contacto form {
+  margin-top: 25px;
+}
+
+input[type="text"] {
+  width: 72%;
+  border: 0;
+  background: #111111;
+  padding: 15px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+::placeholder {
+  color: #cdcdcd;
+}
+
+::-ms-input-placeholder {
+  color: #cdcdcd;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 79%;
+  margin: auto;
+  border: 0;
+  background: #C29D63;
+  color: #fff;
+  padding: 11px 0;
+  font-size: 16px;
+}
+
+#Contacto .izquierda , #Contacto .Derecha {
+  width: 35%;
+}
+
+#Contacto .Derecha {
+  padding: 99px 0;
+  width: 40%;
+}
+
+.Menu-Icon {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  nav {
+    position: absolute;
+    top: 85px;
+    left: 0;
+    background: #000;
+    width: 100%;
+    display: none;
+  }
+
+  nav ul {
+    padding: 0;
+    text-align: center;
+  }
+
+  nav ul li {
+    display: block;
+    padding: 12px 0;
+  }
+
+  nav ul li a {
+    color: #fff;
+  }
+
+  header .Logo {
+    font-size: 20px;
+  }
+
+  #Intro h1 {
+    font-size: 37px;
+  }
+
+  #Intro p {
+    width: 100%;
+    font-size: 13px;
+    line-height: 29px;
+  }
+
+  #Intro {
+    margin-top: -35px;
+  }
+
+  #Our-Story .Contenedor {
+    flex-direction: column;
+  }
+
+  #Our-Story .Izquierda {
+    width: 100%;
+  }
+
+  #Our-Story .Derecha img {
+    width: 100%;
+  }
+
+  #Menu {
+    height: 1550px;
+  }
+
+  #Menu .Contenedor .Linea1 .Texto {
+    top: 0px;
+  }
+
+  #Menu .Linea1 div, #Menu .Linea2 div {
+    display: block;
+    width: 100% !important;
+  }
+
+  #Menu #Texto-Dos {
+    top: 18px;
+  }
+
+  #Menu .Linea2 .Hongos {
+    width: 100% !important;
+    top: 30px;
+    left: 0;
+  }
+
+  #Menu #Texto-Ultimo {
+    width: 100% !important;
+    top: 52px;
+  }
+
+  #Menu .Linea2 .Pez {
+    width: 100% !important;
+    top: 60px !important;
+    left: 0;
+  }
+
+  #Menu .Linea2 {
+    height: 623px;
+  }
+
+.Contenedor-Testimonials {
+    flex-direction: column;
+  }
+
+  .Testimonial {
+    width: 100%;
+  }
+
+  #Contacto .Contenedor {
+    flex-direction: column;
+  }
+
+  #Contacto .izquierda {
+    width: 81%;
+  }
+
+  #Contacto .Derecha {
+    width: 98%;
+    margin-top: 57px;
+  }
+
+  .Menu-Icon {
+    display: block;
+  }
+}

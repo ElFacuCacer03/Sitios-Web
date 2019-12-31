@@ -1,0 +1,517 @@
+body {
+    margin: 0;
+    font-family: "Concert One";
+}
+
+.Contenedor {
+    width: 90%;
+    max-width: 1920px;
+    margin: auto;
+}
+
+h3 {
+    font-size: 48px;
+    color: #FF0EFF;
+    margin: 0 0;
+}
+
+header .Contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* MENU */
+
+.Menu {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 10px 5px 15px #00000050;
+    z-index: 1;
+}
+
+.Menu .Contenedor {
+    align-items: center;
+}
+
+.Menu .Contenedor .Logo a {
+    text-decoration: none;
+    color: #000;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.Menu .Contenedor nav ul li {
+    margin: 15px;
+    list-style: none;
+    text-align: center;
+}
+
+.Menu .Contenedor nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    transition: 0.5s;
+}
+
+.Menu .Contenedor nav ul li a:hover {
+    color: #525252;
+}
+
+.Menu .Contenedor nav ul {
+    display: flex;
+}
+
+.Menu .Contenedor nav ul a .fas.fa-home, .Menu .Contenedor nav ul a .fas.fa-building, .Menu .Contenedor nav ul a .fas.fa-users, .Menu .Contenedor nav ul a .fas.fa-envelope {
+    margin-right: 5px;
+}
+
+/* INICIO */
+
+#Inicio {
+    width: 100%;
+}
+
+.Inicio {
+    display: flex;
+}
+
+#Inicio .Derecha {
+    background: linear-gradient(180deg,#8E2DE2,#4A00E0);
+    width: 50%;
+    height: 100vh;
+}
+
+#Inicio .Derecha .Texto {
+    text-align: center;
+    margin-top: 35vh !important;
+    width: 90%;
+    margin: auto;
+}
+
+#Inicio .Izquierda {
+    background: url(IMG/Fondo.jpg);
+    background-size: cover;
+    background-position: left;
+    width: 50%;
+    height: 100vh;
+}
+
+#Inicio h1 {
+    font-size: 84px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+}
+
+#Inicio h2 {
+    font-size: 34px;
+    color: #fff;
+}
+
+#Inicio .Dulces img {
+    margin: 15px;
+}
+
+.Boton {
+    display: inline-block;
+    background: #FC00FC;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 30px;
+    transform: rotate(-5deg);
+}
+
+#Inicio .Derecha .Texto .Boton .fas.fa-building {
+    margin-right: 10px;
+}
+
+#Inicio .Derecha .Texto .Boton {
+    margin-top: 20px;
+}
+
+/* SOBRE LA EMPRESA */
+
+#Sobre-la-Empresa, #Nuestro-Equipo, #Contacto {
+    margin-top: 74px;
+    padding-top: 86px;
+}
+
+#Sobre-la-Empresa .Tarjetas, #Nuestro-Equipo .Trabajadores, #Contacto .Contacto {
+    margin-top: 70px;
+}
+
+#Sobre-la-Empresa .Fundamentacion, #Sobre-la-Empresa .Tarjetas .Tarjetas2 .Vision {
+    width: 100%;
+    padding: 40px 20px;
+    background: linear-gradient(180deg, #FC5C7D, #6A82FB);
+    border-radius: 25px;
+    color: #fff;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.5);
+}
+
+#Sobre-la-Empresa .Fundamentacion, #Sobre-la-Empresa .Objetivos {
+    box-sizing: border-box;
+}
+
+#Sobre-la-Empresa .Fundamentacion h4, #Sobre-la-Empresa .Mision h4, #Sobre-la-Empresa .Vision h4, #Sobre-la-Empresa .Objetivos h4 {
+    font-size: 32px;
+    margin: 0 0;
+    text-align: center;
+}
+
+#Sobre-la-Empresa .Fundamentacion p, #Sobre-la-Empresa .Tarjetas .Tarjetas2 .Mision p, #Sobre-la-Empresa .Tarjetas .Tarjetas2 .Vision p {
+    margin-top: 20px !important;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-align: justify;
+    width: 90%;
+    margin: auto;
+}
+
+#Sobre-la-Empresa .Tarjetas .Tarjetas2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 0;
+}
+
+#Sobre-la-Empresa .Tarjetas .Tarjetas2 .Mision, #Sobre-la-Empresa .Tarjetas .Tarjetas2 .Vision {
+    width: 40% !important;
+}
+
+#Sobre-la-Empresa .Tarjetas .Tarjetas2 .Mision {
+    padding: 40px 20px;
+    background: linear-gradient(180deg, #6A82FB, #FC5C7D);
+    border-radius: 25px;
+    color: #fff;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.5);
+}
+
+#Sobre-la-Empresa .Objetivos {
+    width: 100%;
+    padding: 40px 20px;
+    background: linear-gradient(180deg, #6A82FB, #FC5C7D);
+    border-radius: 25px;
+    color: #fff;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.5);
+}
+
+#Sobre-la-Empresa .Objetivos p {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+}
+
+#Sobre-la-Empresa .Objetivos ul li {
+    font-size: 18px;
+    list-style-image: url(Imagenes/Objetivo.png);
+    margin: 0 0 5px;
+    margin-left: 25px;
+    letter-spacing: 1px;
+}
+
+/* NUMERO EQUIPO */
+
+#Nuestro-Equipo .Trabajadores {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#Nuestro-Equipo .Trabajador img {
+    border-radius: 100%;
+}
+
+#Nuestro-Equipo .Trabajador h5 {
+    font-size: 24px;
+    color: #80006A;
+    margin: 0;
+    margin-top: 20px;
+}
+
+#Nuestro-Equipo hr {
+    border: 2px solid #80006A;
+    width: 220px;
+}
+
+#Nuestro-Equipo .Trabajador p {
+    font-size: 18px;
+    color: #50008D;
+    margin: 0;
+    margin-top: 20px;
+}
+
+/* CONTACTO */
+
+#Contacto .Contacto {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Contacto input {
+    display: block;
+}
+
+#Contacto .Contacto .Formulario {
+    width: 40%;
+    background: #80006A;
+    padding: 25px;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+#Contacto .Formulario input[type="text"], #Contacto .Formulario input[type="email"], #Contacto .Formulario textarea {
+    width: 92%;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    border: 1px solid #000;
+    font-size: 18px;
+}
+
+#Contacto .Formulario input[type="text"]:focus, #Contacto .Formulario input[type="email"]:focus, #Contacto .Formulario textarea:focus {
+    border: 1px solid #50008D;
+}
+
+#Contacto .Formulario textarea {
+    min-height: 160px;
+    max-width: 320px;
+    min-width: 92%;
+    max-width: 92%;
+}
+
+#Contacto .Formulario input[type="submit"] {
+    background: #50008D;
+    color: #fff;
+    padding: 15px 40px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    border: none;
+}
+
+/* FOOTER */
+
+footer {
+    padding: 20px 0;
+    margin-top: 40px;
+    background: #2F2F2F;
+    color: #fff;
+    text-align: center;
+}
+
+footer .Vias {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .Vias p {
+    margin: 0;
+    font-size: 20px;
+}
+
+footer .Vias .Datos ul {
+    text-align: left;
+}
+
+footer .Vias .Datos ul li {
+    font-size: 18px;
+    margin: 10px;
+}
+
+footer .Vias .Datos ul li {
+    list-style: none;
+}
+
+footer .Vias .Datos ul li .fas.fa-map-marker-alt, footer .Vias .Datos ul li .fas.fa-phone-alt, footer .Vias .Datos ul li .fas.fa-envelope-open {
+    margin-right: 6px;
+}
+
+footer .Vias .Redes img {
+    margin: 0 10px;
+    margin-top: 20px;
+}
+
+footer .Creditos a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer .Creditos {
+    margin: 0;
+    margin-top: 25px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.Icon-Menu {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    /* INICIO */
+    #Inicio .Izquierda {
+        display: none;
+    }
+
+    #Inicio .Derecha {
+        width: 100%;
+    }
+
+    #Inicio .Derecha .Texto {
+        margin-top: 30vh !important;
+    }
+
+    #Inicio h1 {
+        font-size: 54px;
+    }
+
+    #Inicio h2 {
+        font-size: 28px;
+    }
+
+    /* MENU */
+
+    nav {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: #232220;
+        width: 100%;
+        display: none;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 20px;
+    }
+
+    nav ul li a {
+        color: #fff !important;
+    }
+
+    .Icon-Menu {
+        display: block;
+    }
+
+    /* SOBRE LA EMPRESA */
+
+    #Sobre-la-Empresa .Tarjetas .Fundamentacion {
+        box-sizing: border-box;
+    }
+
+    #Sobre-la-Empresa .Tarjetas .Tarjetas2 {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    #Sobre-la-Empresa .Tarjetas .Tarjetas2 .Mision, #Sobre-la-Empresa .Tarjetas .Tarjetas2 .Vision {
+        width: 100% !important;
+        box-sizing: border-box;
+    }
+
+    #Sobre-la-Empresa .Tarjetas .Tarjetas2 .Mision {
+        margin: 70px 0;
+    }
+
+    #Sobre-la-Empresa .Tarjetas .Tarjetas2 .Vision {
+        margin-bottom: 70px;
+    }
+
+    #Sobre-la-Empresa .Objetivos {
+        box-sizing: border-box;
+    }
+
+    #Sobre-la-Empresa .Objetivos ul {
+        padding: 0;
+        padding-left: 20px;
+    }
+
+    #Sobre-la-Empresa .Fundamentacion p, #Sobre-la-Empresa .Tarjetas .Tarjetas2 .Mision p, #Sobre-la-Empresa .Tarjetas .Tarjetas2 .Vision p, #Sobre-la-Empresa .Objetivos ul li {
+        font-size: 16px;
+    }
+
+    #Sobre-la-Empresa .Objetivos ul li {
+        line-height: 24px;
+    }
+
+    /* NUESTRO EQUIPO */
+
+    #Nuestro-Equipo .Trabajadores {
+        flex-direction: column;
+    }
+
+    #Nuestro-Equipo .Trabajador img {
+        width: 65%;
+    }
+
+    #Nuestro-Equipo .Trabajador:nth-child(1) {
+        margin-bottom: 70px;
+    }
+
+    #Nuestro-Equipo .Trabajador p {
+        font-size: 16px;
+    }
+
+    /* CONTACTO */
+
+    #Contacto .Contacto {
+        flex-direction: column;
+    }
+
+    #Contacto .Contacto .Formulario {
+        width: 100%;
+        margin-bottom: 70px;
+    }
+
+    #Contacto .Formulario input[type="text"], #Contacto .Formulario input[type="email"], #Contacto .Formulario textarea {
+        width: 89%;
+    }
+
+    #Contacto .Formulario textarea {
+        min-width: 89%;
+        max-width: 89%;
+        height: 200px;
+    }
+
+    #Contacto .Mapa iframe {
+        width: 100%;
+    }
+
+    /* FOOTER */
+
+    footer .Contenedor .Vias {
+        flex-direction: column;
+    }
+
+    footer .Contenedor .Vias .Datos ul {
+        text-align: center;
+        padding: 0;
+    }
+
+    footer .Contenedor .Vias .Datos ul li {
+        list-style: none;
+    }
+
+    footer .Contenedor .Vias .Datos {
+        margin-bottom: 40px;
+    }
+
+    footer p.Creditos {
+        font-size: 13px;
+    }
+}

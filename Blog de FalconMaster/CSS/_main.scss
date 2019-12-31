@@ -1,0 +1,148 @@
+main {
+    .titulo-seccion {
+            h3 {
+                font-family: $fuente2;
+                font-size: 1.5em;
+                line-height: 1.5em;
+                font-weight: normal;
+                color: $gris_oscuro;
+                padding-bottom: 0.62em;
+                border-bottom: 4px solid $verde;
+                margin-bottom: 1.25em;
+            }
+            > div {
+                padding: 0;
+            }
+    }
+    .single-post {
+        .categorias {
+            margin-bottom: 1.875em;
+        }
+    }
+    .posts {
+        .post {
+            margin-bottom: 1.875em;
+            .contenedor {
+                background: #fff;
+                box-shadow: 0px 0px 5px 0px rgba(#000, 0.3);
+                .thumb {
+                    img {
+                        width: 100%;
+                        vertical-align: top;
+                        height: auto;
+                    }
+                }
+                .info {
+                    padding: 1.25em;
+                    .titulo {
+                        line-height: 1.125em;
+                        margin-bottom: 1.25em;
+                        font-size: 1.125em;
+                        font-weight: bold;
+                        margin-top: 0;
+                        a {
+                            color: $gris_claro;
+                        }
+                    }
+                    .fecha {
+                        color: $gris_oscuro;
+                        font-size: 0.875em;
+                        margin-bottom: 1.25em;
+                    }
+                    .extracto {
+                        color: $texto;
+                        font-size: 1em;
+                        height: 9.125em;
+                        line-height: 1.75em;
+                        margin-bottom: 1.25em;
+                        overflow: hidden;
+                        &:hover {
+                            overflow: auto;
+                        }
+                    }
+                    .categorias {
+                        a {
+                            color: $gris_claro;
+                            font-size: 1em;
+                            font-weight: bold;
+                            margin-right: 1.25em;
+                            &:hover {
+                                color: $azul_primario;
+                                text-decoration: none;
+                            }
+                        }
+                        ul {
+                            list-style: none;
+                            display: flex;
+                            li {
+                                a {
+                                    color: $gris_claro;
+                                    font-size: 1em;
+                                    font-weight: bold;
+                                    margin-right: 1.25em;
+                                    &:hover {
+                                        color: $azul_primario;
+                                        text-decoration: none;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .paginacion {
+        ul {
+            list-style: none;
+            display: flex;
+            margin-bottom: 1.25em;
+            font-size: 1em;
+            li {
+                background: $gris_oscuro;
+                color: #fff;
+                margin-right: 0.62em;
+                font-size: 1.125em;
+                line-height: 1.125em;
+                &.disabled {
+                    padding: 0.62em 0.937em;
+                    font-size: 1.125em;
+                }
+                a {
+                    background: $azul_primario;
+                    color: #fff;
+                    line-height: 1.125em;
+                    display: inline-block;
+                    padding: 0.62em 0.937em;
+                    a:hover {
+                        background: $azul_secundario;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+    .wp-pagenavi {
+        margin-bottom: 1.25em;
+        .pages, span {
+            background: $gris_oscuro;
+            color: #fff;
+            margin-right: 0.62em;
+            font-size: 1.125em;
+            line-height-step: 1.125em;
+            padding: 0.62em 0.973em;
+            a {
+                font-size: 1.125em;
+                background: $azul_primario;
+                color: #fff;
+                display: inline-block;
+                padding: 0.62em 0.937em;
+                margin-right: 0.62em;
+                a:hover {
+                    background: $azul_secundario;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

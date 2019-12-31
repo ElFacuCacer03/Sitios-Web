@@ -1,0 +1,56 @@
+// COLORES
+$colorPiel: #FFAD87;
+$colorRojo: #BD574E;
+$colorFrutilla: #FA877F;
+
+body {
+    margin: 0;
+    font-family: "Open Sans";
+}
+
+.Contenedor {
+    width: 90%;
+    max-width: 1920px;
+    margin: auto;
+}
+
+h3 {
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin: 5px 0;
+}
+
+hr {
+    border: 2px solid $colorRojo;
+    float: left;
+    margin: 0;
+    width: 160px;
+}
+
+@import "menu";
+
+@import "inicio";
+
+@import "SobrelaEmpresa";
+
+@import "nuestroEquipo";
+
+@import "galeria";
+
+@import "contacto";
+
+@import "footer";
+
+@import "responsiveDesign";
+
+html {
+    scroll-behavior: smooth;
+}
+
+#Whatsapp {
+    display: block;
+    position: fixed;
+    top: 90%;
+    right: 3%;
+    z-index: 10;
+}

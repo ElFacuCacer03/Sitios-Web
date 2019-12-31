@@ -1,0 +1,52 @@
+.Main {
+    .Menu {
+        padding-top: 570px;
+        margin-bottom: 50px;
+        .Contenedor {
+            .Contenedor-Menu, .Contenedor-Menu2 {
+                border: 1px solid #000;
+                background: transparent;
+                padding: 10px;
+                overflow: hidden;
+            }
+        }
+        .Titulo {
+            font-size: 40px;
+            font-weight: 300;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        article {
+            width: 50%;
+            float: left;
+            padding: 20px;
+        .Categoria {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        .Platillo {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 4px dotted #000;
+            overflow: hidden;
+        }
+        .Nombre {
+            font-size: 20px;
+            margin-bottom: 15px;
+            float: left;
+        }
+        .Precio {
+            font-size: 20px;
+            margin-bottom: 15px;
+            float: right;
+        }
+        .Descripcion {
+            font-size: 16px;
+            color: #676767;
+            clear: both;
+        }
+        }
+    }
+}

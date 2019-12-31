@@ -1,0 +1,18 @@
+// GALERIA
+
+#Galeria {
+    margin-top: 229px;
+    padding-top: 94px;
+}
+
+.owl-theme {
+    margin-top: 40px;
+    .owl-nav {
+        button.owl-prev, button.owl-next {
+            font-size: 48px !important;
+            span {
+                color: $colorFrutilla;
+            }
+        }
+    }
+}

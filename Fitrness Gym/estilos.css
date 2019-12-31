@@ -1,0 +1,651 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.Contenedor {
+  width: 90%;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.Menu {
+  background: #fff;
+  padding: 9px 20px;
+}
+
+.Menu .Contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .Logo {
+  color: #000;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* INTRO */
+
+#Intro {
+  background: url(Imagenes/intro.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: 'Oswald';
+  display: flex;
+}
+
+#Intro .Izquierda {
+  background-color: rgba(255,255,255,0.85);
+  width: 66%;
+  padding: 65px 75px;
+}
+
+#Intro .Derecha {
+  width: 57%;
+  color: #fff;
+  height: 503px;
+  background: linear-gradient(180deg, rgba(255,255,255,0) 80%, #fff 80%);
+}
+
+#Intro .Contenido {
+  background: red;
+  padding: 1px 50px 40px 50px;
+}
+
+#Intro .Izquierda p {
+  font-size: 14px;
+  letter-spacing: 18px;
+}
+
+#Intro h1 {
+  font-size: 66px;
+  font-weight: 100;
+  letter-spacing: 19px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+#Intro a, #Programs a, #Testimonials a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  letter-spacing: 7px;
+  border-bottom: 2px solid red;
+  padding-bottom: 13px;
+  padding:  0 18px 13px 10px;
+}
+
+#Intro .Derecha a {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 20px;
+  display: inline-block;
+}
+#Intro .Derecha p {
+  font-size: 30px;
+  letter-spacing: 5px;
+}
+
+/* PROGRAMS */
+
+#Programs {
+  padding-top: 90px;
+  text-align: center;
+  font-family: 'Oswald';
+}
+
+.Rojo {
+  color: red;
+}
+
+#Programs .Cero {
+  font-size: 80px;
+  margin-bottom: 0;
+}
+
+#Programs .Ini {
+  letter-spacing: 18px;
+  font-size: 15px;
+}
+
+#Programs h2 {
+  font-size: 63px;
+  font-weight: 100;
+  letter-spacing: 16px;
+  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 16px;
+}
+
+#Programs p {
+  font-family: "Open Sans";
+  color: #fff;
+  font-size: 15px;
+  width: 73%;
+  margin: auto;
+  line-height: 30px;
+}
+
+#Programs a {
+  margin-top: 62px;
+  display: inline-block;
+}
+
+.Contenedor-Programs {
+  display: flex;
+  margin-top: 50px;
+  width: 88%;
+  margin: auto;
+}
+
+#Programs #Uno {
+  background: #2A2E3F;
+  color: #fff;
+}
+
+#Uno p, #Dos p, #Tres p {
+  color: #fff;
+  text-align: left;
+  width: 100%;
+}
+
+h3 {
+  font-size: 26px;
+  letter-spacing: 4px;
+  margin: 0;
+  text-align: left;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.Programs {
+  padding: 45px 47px;
+  box-shadow: 50px 70px 120px -42px rgba(0, 0, 0, 0.3);
+}
+
+#Dos {
+  background: red;
+  color: #fff;
+  position: relative;
+  top: 120px;
+}
+
+#Tres p {
+  color: #000;
+}
+
+/* VIDEO */
+
+#Video-Section {
+  padding-top: 90px;
+  text-align: center;
+}
+
+#Video-Section .Contenedor {
+  position: relative;
+}
+
+#Video-Section .Botones {
+  position: absolute;
+  top: 35%;
+  left: 46%;
+}
+
+#Video-Section i {
+  font-size: 135px;
+  color: #fff;
+}
+
+#Video-Section button {
+  border: 0;
+  background: none;
+}
+
+/* JOIN */
+
+#Join {
+  display: flex;
+  padding-top: 200px;
+}
+
+#Join .Izquierda {
+  width: 49%;
+  background: #FA2A20;
+  margin-left: 100px;
+  height: 340px;
+  position: relative;
+}
+
+#Join img {
+  width: 47%
+}
+
+#Join .Derecha {
+  width: 53%;
+  position: relative;
+  background: url(Imagenes/join-black.jpg);
+  background-size: cover;
+}
+
+#Join .Izquierda a {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 15px 24px;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Oswald";
+  letter-spacing: 5px;
+  position: absolute;
+  top: 8%;
+  left: 32%;
+}
+
+#Join #Uno {
+  position: absolute;
+  top: 24%;
+  left: 56%;
+  z-index: 1;
+  width: 44%;
+}
+
+#Join #Dos {
+  position: absolute;
+  top: -44;
+}
+
+#Join #Tres {
+  position: absolute;
+  left: 47%;
+  top: 24%;
+  width: 44%;
+}
+
+/* TESTIMONIALS */
+
+#Testimonials {
+  padding-top: 90px;
+  text-align: center;
+}
+
+span.Comillas {
+  font-size: 120px;
+  color: red;
+}
+
+#Testimonials h2 {
+  font-size: 63px;
+  font-weight: 100;
+  letter-spacing: 16px;
+  margin: 0;
+  margin-bottom: 63px;
+  font-family: "Oswald";
+}
+
+#Testimonials a {
+  font-family: "Oswald";
+}
+
+.Contenedor-Testimonials {
+  display: flex;
+  margin-top: 90px;
+  justify-content: center;
+}
+
+.Testimonial {
+  width: 40%;
+  margin-right: 40px;
+}
+
+.Testimonial .Contenido {
+  display: flex;
+}
+
+.Foto {
+  background: url(Imagenes/testimonial.jpg);
+  background-size: cover;
+  width: 385px;
+  height: 85px;
+  border-radius: 100%;
+  margin-top: 22px;
+  background-position: center;
+}
+
+.Testimonial p {
+  font-size: 15px;
+  color: #666;
+  text-align: left;
+  margin-left: 24px;
+  line-height: 30px;
+  font-family: "Open Sans";
+}
+
+p.Nombre {
+  margin-left: 125px;
+  font-weight: bold;
+}
+
+/* CONTACTO */
+
+#Contacto {
+  background: url(Imagenes/contacto.jpg);
+  font-family: "Oswald";
+  color: #fff;
+  display: flex;
+}
+
+#Contacto .Izquierda {
+  padding: 100px;
+  width: 43%;
+}
+
+#Contacto .Izquierda p {
+  font-family: 14px;
+  letter-spacing: 18px;
+}
+
+#Contacto h2 {
+  font-size: 66px;
+  font-weight: 100;
+  letter-spacing: 19px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+#contacto form input[type="text"], #contacto form input[type="email"], #contacto form textarea {
+  width: 100%;
+  border: 0;
+  background: none;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  font-size: 16px;
+  margin-bottom: 34px;
+  font-family: 'Oswald';
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 100;
+  color: #fff;
+}
+
+#Contacto form input[type="text"], #Contacto form input[type="email"], #Contacto form textarea {
+  width: 100%;
+  border: 0;
+  background: none;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  font-size: 16px;
+  margin-bottom: 34px;
+  font-family: 'Oswald';
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 100;
+  color: #fff;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+input[type="submit"] {
+  background: none;
+  border: 1px solid #fff;
+  padding: 20px 30px;
+  font-size: 17px;
+  color: #fff;
+  font-family: "Oswald";
+  letter-spacing: 5px;
+  float: right;
+}
+
+#Contacto .Derecha {
+  background: #F7291F;
+  align-self: flex-end;
+  padding: 5px 50px 50px 50px;
+  width: 36%;
+}
+
+.Gym-Hours {
+  box-shadow: 0px 70px 120px -42px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  margin-bottom: 32px;
+}
+
+.Gym-Hours ul {
+  padding: 0;
+}
+
+.Gym-Hours li {
+  list-style: none;
+  font-family: "Open Sans";
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.Pass {
+  background: #fff;
+  color: #000;
+  padding: 30px;
+}
+
+.Pass a {
+  text-decoration: none;
+  color: #000;
+  border: 1px solid red;
+  padding: 22px 30px;
+  display: inline-block;
+  font-size: 17px;
+  letter-spacing: 5px;
+  margin-top: 20px;
+}
+
+.Menu-Icon {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  nav {
+    position: absolute;
+    top: 99px;
+    left: 0;
+    width: 100%;
+    background: #000;
+    display: none;
+  }
+
+  .Menu-Icon {
+    display: block;  
+  }
+
+  nav ul {
+    padding: 0;
+    text-align: center;
+  }
+
+  nav ul li {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  nav ul li a {
+    color: #fff;
+  }
+
+  #Intro .Izquierda p {
+    letter-spacing: 9px;
+  }
+
+  #Intro h1 {
+    font-size: 36px;
+    letter-spacing: 13px;
+  }
+
+  #Intro a, #Programs a, #Testimonials a {
+    font-size: 13px;
+    letter-spacing: 4px;
+  }
+
+  #Intro .Izquierda {
+    width: 100%;
+    padding: 24px 26px;
+    height: 258px;
+  }
+
+  #Intro {
+    flex-direction: column;
+  }
+
+  #Intro .Derecha {
+    width: 100%;
+    height: 202px;
+  }
+
+  #Programs .Cero {
+    font-size: 57px;
+
+  }
+
+  #Programs .Ini {
+    letter-spacing: 12px;
+  }
+
+  #Programs h2 {
+    font-size: 34px;
+  }
+
+  #Programs p {
+    width: 100%;
+  }
+
+  .Contenedor-Programs {
+    flex-direction: column;
+    margin-top: 40px;
+  }
+
+  #Dos {
+    position: relative;
+    top: 35px;
+  }
+
+  #Tres {
+    margin-top: 50px;
+  }
+
+  #Video {
+    width: 342px;
+    height: 298px;
+  }
+
+  #Video-Section i {
+    font-size: 62px;
+  }
+
+  #Video-Section .Botones {
+    top: 42%;
+    left: 40%;
+  }
+  #Video-Section {
+    padding-top: 0;
+  }
+
+  #Join {
+    flex-flow: column;
+  }
+
+  #Join .Izquierda {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #Join #Uno {
+    top: 34%;
+    left: 30%;
+  }
+
+  #Join .Derecha {
+    width: 100%;
+  }
+
+  #Join #Tres {
+    left: 47%;
+    top: 82px;
+    width: 53%;
+  }
+
+  #Join #Dos {
+    top: 1px;
+  }
+
+  #Join img {
+    width: 63%;
+  }
+
+  #Testimonials {
+    padding-top: 390px;
+  }
+
+  #Testimonials h2 {
+    font-size: 24px;
+  }
+
+  .Contenedor-Testimonials {
+    flex-direction: column;
+  }
+
+  .Testimonial {
+    width: 100%;
+  }
+
+  .Foto {
+    height: 59px;
+  }
+
+  #Contacto {
+    flex-direction: column;
+  }
+
+  #Contacto .Izquierda {
+    width: 100%;
+    padding: 25px;
+  }
+
+  #Contacto .Izquierda p {
+    letter-spacing: 9px;
+  }
+
+  #Contacto h2 {
+    font-size: 35px;
+  }
+
+  #Contacto form input[type="text"], #Contacto form input[type="email"], #Contacto form textarea {
+    width: 82%;
+  }
+
+  #Contacto input[type="submit"] {
+    float: left;
+  }
+
+  #Contacto .Derecha {
+    width: 91%;
+    padding: 5px 18px 50px 17px;
+  }
+
+  .Gym-Hours {
+    padding: 16px;
+  }
+
+  .Pass {
+    padding: 13px;
+  }
+}

@@ -1,0 +1,46 @@
+// NUESTRO EQUIPO
+
+#Nuestro-Equipo {
+    padding-top: 94px;
+    margin-top: 66px;
+    .Trabajadores {
+        margin-top: 60px;
+        .Trabajador {
+            display: flex;
+            align-items: center;
+            img {
+                border-radius: 100%;
+                border: 1px solid #000;
+            }
+            .Info {
+                text-align: start;
+                margin-left: 20px;
+            h5 {
+                font-size: 28px;
+                letter-spacing: 0.5px;
+                color: #fff;
+                margin: 0;
+            }
+            p {
+                font-size: 18px;
+                font-weight: 400;
+                color: #fff;
+            }
+            }
+        }
+        .Trabajador:nth-child(2), .Trabajador:nth-child(4) {
+            float: right;
+            background: linear-gradient(90deg, rgba(250,135,127,1) 0%, rgba(255,173,135,0.4990371148459384) 100%);
+            border-radius: 110px;
+            padding-right: 80px;
+        }
+        .Trabajador:nth-child(3) {
+            margin-top: 227px;
+        }
+        .Trabajador:nth-child(1), .Trabajador:nth-child(3) {
+            background: linear-gradient(90deg, rgba(255,173,135,1) 0%, rgba(250,135,127,0.5018382352941176) 100%);
+            border-radius: 110px;
+            width: 35%;
+        }
+    }
+}

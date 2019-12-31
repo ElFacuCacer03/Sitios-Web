@@ -1,0 +1,42 @@
+// MENU
+
+header .Contenedor {
+    display: flex;
+}
+
+.Menu {
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    box-shadow: 5px 5px 20px rgba(#000, .5);
+    z-index: 100 !important;
+    .Contenedor {
+        justify-content: space-between;
+        align-items: center;
+    .Logo {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .fas.fa-bars {
+        display: none;
+    }
+    nav {
+        ul {
+            display: flex;
+            li {
+                list-style: none;
+                margin: 10px;
+                a {
+                    text-decoration: none;
+                    font-size: 20px;
+                    color: #000;
+                    i {
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+    }
+}

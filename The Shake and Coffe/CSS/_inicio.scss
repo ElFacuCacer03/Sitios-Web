@@ -1,0 +1,38 @@
+// INICIO
+
+header {
+    background: url(../IMG/Fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#Inicio {
+    .Inicio {
+        margin-top: 40vh !important;
+        margin: auto;
+        text-align: center;
+        h1 {
+            font-size: 72px;
+            color: #fff;
+            letter-spacing: 2px;
+            margin: 0;
+        }
+        h2 {
+            font-size: 32px;
+            color: #fff;
+            margin: 20px 0;
+            letter-spacing: 1px;
+        }
+        .Boton {
+            display: inline-block;
+            background-color: $colorPiel;
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 20px;
+            border-radius: 35px;
+            margin-top: 25px;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.main {
+    grid-area: contenido;
+    background: #f9f9f9;
+    padding: 40px;
+    .titulo {
+        margin-bottom: 20px;
+    }
+    .gridVideos {
+        display: grid;
+        grid-gap: 40px 20px;
+        grid-template-columns: repeat(4, 1fr);
+        .video {
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
